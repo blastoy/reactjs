@@ -1,0 +1,60 @@
+.text-center {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid gainsboro;
+    border-bottom: 3px solid gainsboro;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    outline: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: gainsboro;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.btn-input {
+    border: 1px solid gainsboro;
+    border-radius: 0 5px 5px 0;
+    border-left: 0;
+    border-bottom: 3px solid gainsboro;
+}
+
+.btn-default {
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    border-bottom: 3px solid gainsboro;
+}
+
+#header {
+    background-color: #111111;
+    color: white;
+    padding: 20px;
+}
+
+#header h2 {
+    margin: 0;
+}
+
+#content {
+    width: 80%;
+    margin: 0 auto;
+}
